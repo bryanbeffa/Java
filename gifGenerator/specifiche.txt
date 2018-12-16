@@ -1,0 +1,3 @@
+-Il programma riceve il numero di immagini che si vogliono utilizzare
+-facoltativo: viene passato il tempo di cambio tra un immagine e l'altra.
+-una volta creta la gif viene salvata nel punto in cui viene utilizzato il programma

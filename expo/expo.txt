@@ -1,0 +1,48 @@
+#################################################################################################################################################
+#                                                                                                                                               #
+# Scopo (dati):                                                                                                                                 #
+# -raccogliere i dati delle persone che partecipano                                                                                             #
+# -nome, cognome, genitore o rappresentante legale                                                                                              #
+# -email genitore                                                                                                                               #
+# -email ragazzo/a" --> formattazione possibile (<nome utente>@<dominio>.<estensione>)                                                          #
+# -anno di nascita  --> formato accettato, data valida, range ammissibile e configurabile                                                       #
+# -ultima scuola e classe frequentata                                                                                                           #
+#                                                                                                                                               #
+#################################################################################################################################################
+
+#################################################################################################################################################
+  
+ Struttura:
+ -chi vuole partecipare deve registrarsi e compilare un piccolo formulario
+ -applicazione presentata a terminale, senza interfaccia grafica, girare su linux
+ -permettere di introdurre dati
+ -tutti i dati devono essere validati
+ -alla fine ricontrollo ed eventuale modifica
+ -infine accettare dopo aver controllato le proprie info personali
+ -salvare in un file --> sistema di backup
+ -salvare anche la data e ora dell'iscrizione
+ -controllo interessamento (tramite alcune domande) --> possono essere aggiunte in un secondo tempo, con le risposte giuste e le risposte vere
+ -quiz ha una schermata grafica con ascii art --> configurabile (grafica hacker) 
+ -se la risposta non è accettabile ripeto la domanda
+ -le domande devono essere sempre diverse --> salvate in un file csv
+ -le risposte devono essere ordinate in modo casuale
+ -controllo se la risposta è corretta
+ -salvo le risposte e le domande in un file con il punteggio e la persona che ha partecipato
+ -(file di configurazione con il percorso per le domande)
+ -durante il procedimento deve essereci la possibilita di terminare l'attività
+ -pagina di ringraziamento --> link con la pagina dell'estrazione dei premi --> con lo score
+ -rinizia da capo
+ 
+ Amministrazione:
+ -includere in un solo file tutti i file csv --> possibilità di unire i file (merge)
+ -ricerca all'interno di tutti i file csv --> file di configurazione con i percorsi dei file
+ 
+ Materiale:
+ -più raspberry PI3
+ -Niente gadget. Solo premi grossi
+ -Esposizione 2-3 demo.
+ 
+ Domande al commitente:
+ -Devo chiedere il numero di telefono o la via?
+ -Vince chi ha fatto il punteggio migliore
+ -Chiedere anno di nascita o data intera?
